@@ -7,7 +7,7 @@
  mkdir -p /home/vagrant/hdfs/namenode
  mkdir -p /home/vagrant/hdfs/datanode
  
- . ~/.bashrc
+ sh ~/.bashrc
  hadoop namenode -format
  sudo rm -rf /var/lib/apt/lists/*
 
