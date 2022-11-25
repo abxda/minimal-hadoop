@@ -1,0 +1,9 @@
+hdfs dfs -ls /
+hdfs dfs -mkdir /data
+hdfs dfs -mkdir /data/openbeer
+hdfs dfs -mkdir /data/openbeer/breweries
+hdfs dfs -ls /
+cd /vagrant
+hdfs dfs -put breweries.csv /data/openbeer/breweries
+hdfs dfs -ls /data/openbeer/breweries
+hdfs fsck /data/openbeer/breweries/breweries.csv
