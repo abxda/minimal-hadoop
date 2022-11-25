@@ -6,8 +6,8 @@
  echo -e "\nif [ -f /vagrant/hadoop-env-user.sh ]; then\n    . /vagrant/hadoop-env-user.sh\nfi\n" >> ~/.bashrc
  mkdir -p /home/vagrant/hdfs/namenode
  mkdir -p /home/vagrant/hdfs/datanode
- 
- sh ~/.bashrc
+ cd /home/vagrant
+ sh .bashrc
  hadoop namenode -format
- sudo rm -rf /var/lib/apt/lists/*
+
 
