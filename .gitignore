@@ -1,1 +1,4 @@
 /opt/tdh/hadoop/logs/
+/.ipynb_checkpoints/
+/.vagrant/
+
