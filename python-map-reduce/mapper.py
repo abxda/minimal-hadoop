@@ -9,5 +9,5 @@ for line in sys.stdin:
 	for word in words:
 		word = word.strip()
 		if len(word) > 0:
-			print '%s\t%s' % (word,1)
+			print ('%s\t%s' % (word,1))
 
